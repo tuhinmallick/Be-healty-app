@@ -1,31 +1,3 @@
-# Streamlit BMI calculator app
-
-![screenshot](https://raw.githubusercontent.com/asehmi/bmi_calculator/main/bmi_calc_app.png)
-
-### Try the demo app
-
-The demo application can be seen running in the Streamlit Cloud at the link below:
-
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://asehmi-bmi-calculator-bmi-calc-app-wmmzpf.streamlitapp.com/)
-
-### Run the app yourself
-
-Clone this repository, then...
-
-#### Install Streamlit
-
-```bash
-$ pip install streamlit
-```
-
-#### Run the app
-
-```bash
-$ streamlit run bmi_calc_app.py
-```
-
-### Code
-```python
 import streamlit as st
 
 outside_expander_area = st.container()
@@ -136,4 +108,3 @@ with st.expander('Show the code', expanded=True):
 
             st.subheader(f'BMI level is {level} ({BMI})')
             # st.caption(f'Rotation: {dial_rotation} degrees')
-```
